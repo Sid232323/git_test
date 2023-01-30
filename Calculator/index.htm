@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.min.css">
+    <link rel="stylesheet" href="/css/style.min.css">    
     <title>Calculator</title>
 </head>
 <body>
@@ -13,7 +13,7 @@
 
 	<!-- блок с кнопками -->
         <div class="operators" id="operator_btns">
-            <button onclick="plus()">+</button>
+            <button onclick="plus()" type="submit">+</button>
             <button onclick="minus()">-</button>
             <button onclick="multiplication()">X</button>
             <button onclick="division()">/</button>
@@ -22,19 +22,8 @@
         <input id="n2" type="text">
         <br>
 	<!-- кнопка для рассчётов -->
-        <span id="result"></span>
-    </div>
-    
-
-    <div class="block_papa">
-        <div class="block" id="bck">
-        </div>
-        <div class="block" id="bck">
-        </div>
-        <div class="block" id="bck">
-        </div>
+        <span id="result" type="text">result</span>
     </div>
     <script src="/js/script.js"></script>
-    <script src="/js/button-block.js"></script>
 </body>
 </html>
