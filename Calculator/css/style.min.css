@@ -1,1 +1,107 @@
-*{margin:0;padding:0;-webkit-box-sizing:border-box;box-sizing:border-box}body{height:100vh;background:radial-gradient(circle, skyblue, steelblue);display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.calculator{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-ms-flex-pack:distribute;justify-content:space-around;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:320px;height:480px;background:#eee;border-radius:5px;-webkit-box-shadow:2px 2px 3px rgba(0,0,0,0.2),-2px -2px 3px rgba(0,0,0,0.2);box-shadow:2px 2px 3px rgba(0,0,0,0.2),-2px -2px 3px rgba(0,0,0,0.2)}.calculator input{width:250px;height:40px;font-size:30px;text-align:center;border-radius:20%;background-color:#fff;border:0px;-webkit-transition:0.5s;transition:0.5s}.calculator input:hover{background-color:#ffb8b8}.calculator .operators{display:-webkit-box;display:-ms-flexbox;display:flex;width:300px;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.calculator .operators button{cursor:pointer;width:50px;height:50px;border:6px solid #65ff6a;background-color:#0080ff55;font-size:30px;color:#ff0000;-webkit-transition:0.5s;transition:0.5s}.calculator .operators button:hover{color:#680000;border:2px solid #006803;background-color:#002e5c55}.calculator .result{font-weight:bold}.block_papa .block{margin:10px;width:100px;height:50px;background-color:#ff0000;-webkit-transition:0.5s;transition:0.5s}.block_papa .block:hover{width:200px;height:200px;background-color:#3700ff;border-radius:40%}.block_papa .block:nth-child(2):hover{width:200px;height:200px;background-color:#cbbdff;border-radius:40%}.block_papa .block:nth-child(2):hover::before{content:"kikel ofjeio ofoe iohfwf ionwfd ";font-size:20px;text-align:center}.block_papa .block:nth-child(3):hover{width:200px;height:200px;background-color:#00fa3e;border-radius:40%}.block_papa .block:nth-child(3):hover::before{content:"kikel ofjeio ofoe iohfwf ionwfd ";font-size:20px;text-align:center}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: radial-gradient(circle, skyblue, steelblue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 320px;
+  height: 480px;
+  background: #eee;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2), -2px -2px 3px rgba(0, 0, 0, 0.2);
+}
+.calculator input {
+  width: 250px;
+  height: 40px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 40%;
+  background-color: #fff;
+  border: 0px;
+  transition: 0.3s;
+}
+.calculator input:hover {
+  background-color: #fff0f0;
+}
+.calculator input:focus {
+  border-radius: 0%;
+}
+.calculator .operators {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+.calculator .operators .buttons {
+  margin-top: 10px;
+}
+.calculator .operators .buttons button {
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  margin-left: 20px;
+  background-color: rgba(0, 128, 255, 0.3333333333);
+  font-size: 15px;
+  color: #ff0000;
+  transition: 0.5s;
+}
+.calculator .operators .buttons button:hover {
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  color: #680000;
+  border: 2px solid #006803;
+  background-color: rgba(0, 46, 92, 0.3333333333);
+}
+.calculator .result {
+  font-weight: bold;
+}
+
+.block_papa .block {
+  margin: 10px;
+  width: 100px;
+  height: 50px;
+  background-color: #ff0000;
+  transition: 0.5s;
+}
+.block_papa .block:hover {
+  width: 200px;
+  height: 200px;
+  background-color: #3700ff;
+  border-radius: 40%;
+}
+.block_papa .block:nth-child(2):hover {
+  width: 200px;
+  height: 200px;
+  background-color: #cbbdff;
+  border-radius: 40%;
+}
+.block_papa .block:nth-child(2):hover::before {
+  content: "kikel ofjeio ofoe iohfwf ionwfd ";
+  font-size: 20px;
+  text-align: center;
+}
+.block_papa .block:nth-child(3):hover {
+  width: 200px;
+  height: 200px;
+  background-color: #00fa3e;
+  border-radius: 40%;
+}
+.block_papa .block:nth-child(3):hover::before {
+  content: "kikel ofjeio ofoe iohfwf ionwfd ";
+  font-size: 20px;
+  text-align: center;
+}/*# sourceMappingURL=style.min.css.map */

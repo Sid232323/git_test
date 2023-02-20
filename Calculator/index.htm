@@ -13,11 +13,16 @@
 
 	<!-- блок с кнопками -->
         <div class="operators" id="operator_btns">
-            <button onclick="plus()" type="submit">+</button>
-            <button onclick="minus()">-</button>
-            <button onclick="multiplication()">X</button>
-            <button onclick="division()">/</button>
+            <div class="buttons">
+                <button onclick="plus()" type="submit">+</button>
+                <button onclick="minus()">-</button>
+            </div>
+            <div class="buttons">
+                <button onclick="multiplication()">X</button>
+                <button onclick="division()">/</button>
+            </div>        
         </div>
+
 	<!-- поле ввода второго числа -->
         <input id="n2" type="text">
         <br>

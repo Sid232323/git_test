@@ -23,29 +23,37 @@ body
 		height: 40px
 		font-size: 30px
 		text-align: center
-		border-radius: 20%
+		border-radius: 40%
 		background-color: #fff
 		border: 0px
-		transition: 0.5s
+		transition: 0.3s
 		&:hover
-			background-color: #ffb8b8
+			background-color: #fff0f0
+		&:focus
+			border-radius: 0%
 	.operators
 		display: flex
+		flex-direction: column
+		align-items: center
 		width: 300px
-		justify-content: space-between
-		button
-			cursor: pointer
-			width: 50px
-			height: 50px
-			border: 6px solid #65ff6a
-			background-color: #0080ff55
-			font-size: 30px
-			color: #ff0000
-			transition: 0.5s	
-			&:hover
-				color: #680000	
-				border: 2px solid #006803
-				background-color: #002e5c55		
+		.buttons
+			margin-top: 10px
+			button
+				cursor: pointer
+				width: 25px
+				height: 25px
+				margin-left: 20px
+				background-color: #0080ff55
+				font-size: 15px
+				color: #ff0000
+				transition: 0.5s	
+				&:hover
+					font-size: 20px
+					width: 50px
+					height: 50px
+					color: #680000	
+					border: 2px solid #006803
+					background-color: #002e5c55		
 	.result
 		font-weight: bold
 		
